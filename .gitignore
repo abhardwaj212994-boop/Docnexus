@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.xlsx
+data/external/*.csv
+data/external/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+data/predictions/*.csv
+data/predictions/*.parquet
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Logs
+logs/*.log
+*.log
+
+# Outputs
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.pdf
+outputs/*.html
+outputs/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# OS
+Thumbs.db
+.DS_Store
+.directory
+
+# API keys (if any)
+secrets.yaml
+credentials.json
+*.key
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+
+# Optuna database
+optuna.db
+*.db
+
+# Backup files
+*_backup.*
+*_old.*
